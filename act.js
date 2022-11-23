@@ -55,7 +55,7 @@ del.addEventListener('click', () =>{
     removeTask()
 })
 
-userInput.addEventListener("keypress", function(event) {
+userInput.addEventListener("keypress", (event) =>{
     if (event.key === "Enter") {
       event.preventDefault()
       add.click()
