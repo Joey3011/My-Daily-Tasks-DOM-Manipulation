@@ -15,7 +15,7 @@ const addTask = (str) =>{
         checkbox.type = "checkbox"
         checkbox.value = str
         checkbox.id = "checkID"
-        checkbox.className = "form-check-input ms-1 me-2"
+        checkbox.className = "form-check-input me-2"
 
         let label = document.createElement('label')
         label.htmlFor = "checkID"
