@@ -44,7 +44,6 @@ const removeTask = () =>{
             item.parentElement.remove(div)
         }
     } 
-    if(!itemCheck) return alert(`Pls. select item to delete...`)
 }
 
 add.addEventListener("click", () => {
