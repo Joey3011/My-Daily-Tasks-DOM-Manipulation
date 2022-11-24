@@ -37,10 +37,9 @@ const addTask = (str) =>{
 const removeTask = () =>{
     let checkBoxes = document.querySelectorAll('input[type="checkbox"]:checked')
     let div = document.querySelector("#form-check");
-    let itemCheck = false;
     for(let item of checkBoxes){
         if (item.checked) { 
-            itemCheck = true;
+            console.log(item.value)
             item.parentElement.remove(div)
         }
     } 
